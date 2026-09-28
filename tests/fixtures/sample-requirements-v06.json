@@ -1,0 +1,44 @@
+{
+  "schema": "gearplaner.requirements/0.6",
+  "tasks": [
+    {
+      "id": "aug-test",
+      "title": "Augment test",
+      "source_type": "manual",
+      "requirements": [
+        {
+          "kind": "item",
+          "item_id": 19019,
+          "item_name": "Kikoku",
+          "quantity": 1,
+          "label": "Kikoku",
+          "augment_required": true,
+          "details": [
+            "DEX",
+            "Weapon skill damage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resource-test",
+      "title": "Resource test",
+      "source_type": "manual",
+      "requirements": [
+        {
+          "kind": "item",
+          "item_id": 1179,
+          "item_name": "Shihei",
+          "quantity": 200,
+          "label": "Shihei"
+        },
+        {
+          "kind": "currency",
+          "key": "sparks",
+          "quantity": 50000,
+          "label": "Sparks"
+        }
+      ]
+    }
+  ]
+}

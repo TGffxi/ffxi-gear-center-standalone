@@ -1,0 +1,9 @@
+<?php
+return [
+    'app_name' => 'FFXI Gear Center',
+    // Optional override. The public installer normally writes data/character.txt.
+    'character' => getenv('GEAR_CENTER_CHARACTER') ?: '',
+    'ashita_root' => getenv('HOME') . '/Games/FFXI/ashita',
+    'gearfinder_dir' => null, // null = auto-detect newest cache for character
+    'db_path' => dirname(__DIR__) . '/data/gear-center.sqlite',
+];

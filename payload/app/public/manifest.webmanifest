@@ -1,0 +1,6 @@
+{
+  "name":"FFXI Gear Center","short_name":"Gear Center","start_url":"/","display":"standalone",
+  "background_color":"#0b1016","theme_color":"#0b1016",
+  "description":"Lokales FFXI-Inventar, Gearplanung, Farmplan und Gear-Vergleich.",
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

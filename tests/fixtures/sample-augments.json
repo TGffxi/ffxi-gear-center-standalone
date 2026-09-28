@@ -1,0 +1,17 @@
+{
+  "schema": "gearcenter.augments/fixture",
+  "version": "fixture",
+  "exported_at_unix": 1788240005,
+  "coverage_complete": false,
+  "items": [
+    {
+      "item_id": 19019,
+      "container_id": 8,
+      "slot": 1,
+      "augments": [
+        "DEX+20",
+        "Weapon skill damage +10%"
+      ]
+    }
+  ]
+}

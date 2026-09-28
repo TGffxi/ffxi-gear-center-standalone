@@ -1,0 +1,268 @@
+{
+  "schema": "gearplaner.character-state/0.6",
+  "bridge_version": "0.6.0",
+  "exported_at_unix": 1788240000,
+  "exported_reason": "fixture",
+  "character": {
+    "name": "ExamplePlayer",
+    "zone_id": 243
+  },
+  "containers": [
+    {
+      "id": 0,
+      "name": "Inventory",
+      "used": 2,
+      "capacity": 80
+    },
+    {
+      "id": 1,
+      "name": "Mog Safe",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 2,
+      "name": "Storage",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 3,
+      "name": "Temporary",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 4,
+      "name": "Mog Locker",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 5,
+      "name": "Mog Satchel",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 6,
+      "name": "Mog Sack",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 7,
+      "name": "Mog Case",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 8,
+      "name": "Wardrobe 1",
+      "used": 1,
+      "capacity": 80
+    },
+    {
+      "id": 9,
+      "name": "Mog Safe 2",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 10,
+      "name": "Wardrobe 2",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 11,
+      "name": "Wardrobe 3",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 12,
+      "name": "Wardrobe 4",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 13,
+      "name": "Wardrobe 5",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 14,
+      "name": "Wardrobe 6",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 15,
+      "name": "Wardrobe 7",
+      "used": 0,
+      "capacity": 80
+    },
+    {
+      "id": 16,
+      "name": "Wardrobe 8",
+      "used": 0,
+      "capacity": 80
+    }
+  ],
+  "items": [
+    {
+      "item_id": 19019,
+      "name": "Kikoku",
+      "count": 1,
+      "flags": 0,
+      "index": 1,
+      "container_id": 8,
+      "container_name": "Wardrobe 1",
+      "slot": 1,
+      "stack_size": 1,
+      "item_type": 4,
+      "equipped_slots": [
+        "main"
+      ],
+      "extra_hex": "000000000000000000000000000000000000000000000000"
+    },
+    {
+      "item_id": 1179,
+      "name": "Shihei",
+      "count": 99,
+      "flags": 0,
+      "index": 4,
+      "container_id": 0,
+      "container_name": "Inventory",
+      "slot": 4,
+      "stack_size": 99,
+      "item_type": 1,
+      "equipped_slots": [],
+      "extra_hex": null
+    },
+    {
+      "item_id": 1179,
+      "name": "Shihei",
+      "count": 40,
+      "flags": 0,
+      "index": 5,
+      "container_id": 0,
+      "container_name": "Inventory",
+      "slot": 5,
+      "stack_size": 99,
+      "item_type": 1,
+      "equipped_slots": [],
+      "extra_hex": null
+    }
+  ],
+  "equipped": [
+    {
+      "equip_slot": 0,
+      "equip_slot_name": "main",
+      "container_id": 8,
+      "container_name": "Wardrobe 1",
+      "slot": 1,
+      "item_id": 19019
+    }
+  ],
+  "currencies": {
+    "gil": 1234567,
+    "sparks": 45000,
+    "accolades": 72000,
+    "conquest_sandoria": 1234,
+    "beastmen_seals": 88,
+    "kindred_seals": 44,
+    "ancient_beastcoins": 17,
+    "imperial_standing": 9000,
+    "kindred_crests": 33,
+    "high_kindred_crests": 22,
+    "sacred_kindred_crests": 11,
+    "nyzul_tokens": 8765,
+    "allied_notes": 43210,
+    "cruor": 765432,
+    "reclamation_marks": 99,
+    "deeds": 125,
+    "bayld": 98765,
+    "escha_silt": 567890,
+    "hallmarks": 12345,
+    "badges_of_gallantry": 6789,
+    "domain_points": 80,
+    "mog_segments": 112233,
+    "gallimaufry": 445566,
+    "temenos_units": 321,
+    "apollyon_units": 654
+  },
+  "progression": {
+    "main_job": 13,
+    "sub_job": 7,
+    "main_job_level": 99,
+    "sub_job_level": 59,
+    "exp_current": 55999,
+    "exp_needed": 56000,
+    "capacity_points": 12345,
+    "job_points": 2100,
+    "mastery_exp": 1000,
+    "mastery_exp_needed": 2500
+  },
+  "raw": {
+    "currency_0x113_hex": "aa",
+    "conquest_0x05E_hex": null,
+    "currency_0x118_hex": "bb"
+  },
+  "capabilities": {
+    "full_physical_inventory": true,
+    "equipped_mapping": true,
+    "item_extra_hex": true,
+    "gil": true,
+    "common_currencies": true,
+    "progression": true,
+    "raw_currency_packet_capture": true,
+    "raw_currency2_packet_capture": true,
+    "semantic_currency_0x113": true,
+    "semantic_currency_0x118": true,
+    "points_overlay_supported": true,
+    "key_items": true
+  },
+  "capture": {
+    "sequence": 3,
+    "exported_at_unix": 1788240000,
+    "reason": "fixture",
+    "currency_0x113_seen": true,
+    "currency_0x118_seen": true,
+    "conquest_0x05e_seen": false,
+    "container_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "physical_stack_count": 3,
+    "equipped_slot_count": 1
+  },
+  "key_items": [
+    {
+      "key_item_id": 12,
+      "name": "Test Key Item",
+      "owned": true
+    },
+    {
+      "key_item_id": 314,
+      "owned": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+FFXI Gear Center 1.0.2 — PUBLIC STANDALONE
+
+1. Extract the package.
+2. Ensure FFXI/Ashita/LuAshitacast and the Points addon exist below ~/Games/FFXI.
+3. If multiple LuAshitacast characters exist, set GEAR_CENTER_CHARACTER first.
+4. Run: chmod +x install-1.0.sh rollback-1.0.sh
+5. Run: ./install-1.0.sh
+6. Start standalone: ~/Games/FFXI/scripts/gear-center-services.sh start
+7. Open UI: ~/Games/FFXI/scripts/gear-center-services.sh open
+8. Stop: ~/Games/FFXI/scripts/gear-center-services.sh stop
+
+FFXI Center is optional. If present, the installer can integrate it as an additional lifecycle owner; it is not required for standalone use.

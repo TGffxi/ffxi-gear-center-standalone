@@ -1,0 +1,40 @@
+{
+  "schema": "gearplaner.points-state/0.5",
+  "source": {"addon": "points", "version": "2.2.10", "hook": "gearplaner-v05"},
+  "exported_at_unix": 1788240010,
+  "exported_reason": "sample",
+  "ready": true,
+  "character": {"name": "ExamplePlayer", "zone_id": 243, "main_job": 13, "main_job_level": 99},
+  "default": {
+    "sparks": 54321,
+    "accolades": 65432,
+    "exp": {"curr": 55999, "max": 56000},
+    "limit": {"curr": 7777, "points": 44, "maxpoints": 75},
+    "capacity": {"curr": 23456, "points": 2100},
+    "mastery": {"curr": 3456, "max": 10000},
+    "mBreaker": true,
+    "xpChain": 0,
+    "xpTimer": 0,
+    "estXpHour": 0,
+    "estMpHour": 0,
+    "cpChain": 17,
+    "cpTimer": 24,
+    "estCpHour": 456789,
+    "estJpHour": 15.2,
+    "epChain": 8,
+    "epTimer": 19,
+    "estEpHour": 12345
+  },
+  "events": {
+    "event_timer": 1200,
+    "zone_timer_started": 123.5,
+    "dynamis": {"key_items": [true, false, true, false, true]},
+    "abyssea": {"pearlescent": 10, "azure": 20, "ruby": 30, "amber": 40, "golden": 50, "silvery": 60, "ebon": 70},
+    "assault": {"objective": "-", "timer": 0},
+    "nyzul": {"floor": 20, "objective": "Eliminate specified enemy"},
+    "voidwatch": {"red": 0, "blue": 0, "green": 0, "yellow": 0, "white": 0},
+    "omen": {"main_objective": "-", "add_objectives": []},
+    "odyssey": {"segments": 1234, "total_segments": 99999, "izzat": 5, "moglophone_mastery": 0, "izzat_costs": []},
+    "sortie": {"gallimaufry": 54321}
+  }
+}

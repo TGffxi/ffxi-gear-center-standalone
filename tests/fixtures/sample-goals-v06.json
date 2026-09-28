@@ -1,0 +1,10 @@
+{
+  "schema": "gearplaner.goals/0.6",
+  "goals": [
+    {
+      "task_id": "aug-test",
+      "enabled": true,
+      "priority": 100
+    }
+  ]
+}

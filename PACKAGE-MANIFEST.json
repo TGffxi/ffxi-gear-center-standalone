@@ -1,0 +1,823 @@
+{
+  "schema": "ffxi-gear-center.package-manifest/1",
+  "release": "1.0.2",
+  "created": "2026-09-28",
+  "file_count": 163,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 88,
+      "sha256": "87a96079d87d3dd059f7a859749dc9626d1a4ece5d7886d4bdd00f828691ec3d"
+    },
+    {
+      "path": ".gitignore",
+      "size": 210,
+      "sha256": "c0005fe5ec62a9cee1c88ec79ef400088c991bcd4c2102c6065c5d3ddc2b49a2"
+    },
+    {
+      "path": "INSTALLATION.txt",
+      "size": 639,
+      "sha256": "e7d38cb958b568b11b563150a977e17cc2a86b1c5a831cdc201f19a75112b62c"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1063,
+      "sha256": "c97f6dd3462c6cc41e1afa8ba3f92ea783294efbbe3ab647e7e59ee366475839"
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 600,
+      "sha256": "be32e2c77fde6529c9ebe4d099e8bec9f632c7d517d63287adddbab261e41a5c"
+    },
+    {
+      "path": "PUBLIC-DISTRIBUTION.md",
+      "size": 1126,
+      "sha256": "c65b41c4c24ba36440ed752b53564983af1c6f4a5f1fd21069ceaca752498925"
+    },
+    {
+      "path": "README.md",
+      "size": 6027,
+      "sha256": "78d3e26099b2465d9b1507434206787d923b1e30998b431183fcb91d0cde9cbb"
+    },
+    {
+      "path": "RELEASE.json",
+      "size": 2243,
+      "sha256": "c0e84827344043b871cec98d91ef1199823d130c7512da5746626a25ac927a78"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 395,
+      "sha256": "25a0cb2541062c987c2d2dd6b47de4c85907815f2c2ef3cf03720fd649307764"
+    },
+    {
+      "path": "THIRD_PARTY-DATA.md",
+      "size": 610,
+      "sha256": "da51bb8076a5d69e0552710b25d2a276e22038eb88e50f582d7774dbdb743de3"
+    },
+    {
+      "path": "docs/screenshots/farmplan-routes.png",
+      "size": 180911,
+      "sha256": "11696ff0a1a2159cca1a20198114d956a6632f5512330dbe91d28649aa030ddc"
+    },
+    {
+      "path": "docs/screenshots/item-catalog.png",
+      "size": 161478,
+      "sha256": "873386e2249a795bea1eb801fdc3d7c236de250d1c0bcd8f0691ea77f9cad27f"
+    },
+    {
+      "path": "install-1.0.sh",
+      "size": 21344,
+      "sha256": "5cbb3da1fc091679c16d2c8559bf138a04a252e1f90c13a100c1165b843844a6"
+    },
+    {
+      "path": "payload/app/.gitignore",
+      "size": 63,
+      "sha256": "d0b9c15d1065aaa99d75a1539b2e778d5defbcddf98ae5d8a4795c47f411efa0"
+    },
+    {
+      "path": "payload/app/CHANGELOG.md",
+      "size": 5394,
+      "sha256": "561b83d1511cf3e467cdd4f3941fb7ba8e0109930407c6a2f321510336d165ed"
+    },
+    {
+      "path": "payload/app/README.md",
+      "size": 5600,
+      "sha256": "6fee4a70c76a0f8d24e6c73edae4eea22ddae0a8585e6a38fb714e0170883cdd"
+    },
+    {
+      "path": "payload/app/VERSION",
+      "size": 6,
+      "sha256": "9fd28642d3aca191e5c7fc2383cfd6fabb2aac8743f029dabb8989ac584e31bc"
+    },
+    {
+      "path": "payload/app/bin/bg-job-guides-smoke.php",
+      "size": 1069,
+      "sha256": "062e12ef107ee99d87c431e8cbd593b4ab0df3b6abd8b8e9f68bcd4d946d3069"
+    },
+    {
+      "path": "payload/app/bin/coverage-cache-refresh.php",
+      "size": 1928,
+      "sha256": "fc37bf4518cc8b6de03c7f1f9a210075191cfd0bf6683cef0670be5de1560495"
+    },
+    {
+      "path": "payload/app/bin/coverage-cache-status.php",
+      "size": 1131,
+      "sha256": "7c27e0152373c95b82fe5612d967f34c68f3a3184f0c11a327c3763e1a731395"
+    },
+    {
+      "path": "payload/app/bin/coverage-report.php",
+      "size": 2742,
+      "sha256": "189953bee95e97ca3d6e00a448b9bc52a1e59feec3618cb982ff1bec87bf014c"
+    },
+    {
+      "path": "payload/app/bin/diff-snapshots.php",
+      "size": 1215,
+      "sha256": "648c311420030527b18872b6757bfbc13bebb57e5b3589d42ba068fae25a28d6"
+    },
+    {
+      "path": "payload/app/bin/doctor.php",
+      "size": 2005,
+      "sha256": "d56e911ae0de1743fde864f2990e6699405c86d869d697145b2f8d5c3ee10a93"
+    },
+    {
+      "path": "payload/app/bin/ensure-character.php",
+      "size": 1076,
+      "sha256": "2d90cfb49b9d0c2544c69516ec98eadb4ba3e03e03aa5d5b84231043901f83c3"
+    },
+    {
+      "path": "payload/app/bin/export-runtime-planning-overlay.php",
+      "size": 2272,
+      "sha256": "bf3e2362735ce755203d587d14179ea551462c8cca085f3f88cfae2a5e618f2d"
+    },
+    {
+      "path": "payload/app/bin/fix-bgwiki-encoding.php",
+      "size": 561,
+      "sha256": "f1ec4e04659e08ee5884e8be3dd06387cc3393f78bc9dd46779c229c2b9786e6"
+    },
+    {
+      "path": "payload/app/bin/fix-target-source-metadata.php",
+      "size": 939,
+      "sha256": "29691f56bb39e77d6200acde3e53a9c60d96bc71aaa692d512fa956266b721ef"
+    },
+    {
+      "path": "payload/app/bin/global-target-report.php",
+      "size": 2064,
+      "sha256": "8128d1e8cd74eaa14f81288b03ff8bcfc742438bc97bcd3a87bc3cad5383d1b0"
+    },
+    {
+      "path": "payload/app/bin/global-target-sync.php",
+      "size": 3193,
+      "sha256": "f89dbdd914043332bb70cdd1cf568ec449587a7e7bcd53423d884f26611cc900"
+    },
+    {
+      "path": "payload/app/bin/import-augment-bridge.php",
+      "size": 267,
+      "sha256": "36e2d118dccda33f878f5cf3a8febe9b7049e8cec0c2dac6920cf6ee0fb806b3"
+    },
+    {
+      "path": "payload/app/bin/import-bgwiki-chain.php",
+      "size": 2131,
+      "sha256": "8d37aa23cd29f3e213be42977e0d72d5902c65a9a07d2fabe6f5f48f431da118"
+    },
+    {
+      "path": "payload/app/bin/import-bgwiki.php",
+      "size": 3718,
+      "sha256": "deacbf740c83417c3167fa5267af0166440fff4d42a910082e25957a3d884821"
+    },
+    {
+      "path": "payload/app/bin/import-gearfinder.php",
+      "size": 1162,
+      "sha256": "fd12301125f7c64261f90d6255c30f1c8c198b232b6e0279d2521c30a517e109"
+    },
+    {
+      "path": "payload/app/bin/import-lac.php",
+      "size": 1111,
+      "sha256": "2c957de7197aac239dc83997888292a0f07f90b9b8605e135c3ecfab46bfd6d2"
+    },
+    {
+      "path": "payload/app/bin/import-live-snapshot.php",
+      "size": 2194,
+      "sha256": "fa4a4bd5dd86d60c0ef49291e96f51ff6124f45561495f04b019579dd23ee5b3"
+    },
+    {
+      "path": "payload/app/bin/import-progression-gaps.php",
+      "size": 2686,
+      "sha256": "73c71f9a034a9964d906c21ca2910fe294358636b65dc751d9e60775162c788d"
+    },
+    {
+      "path": "payload/app/bin/init-db.php",
+      "size": 301,
+      "sha256": "f9163f093b329328bda6c157f22266cae2ef80628d7d4f2bf537ab5e1dd7618e"
+    },
+    {
+      "path": "payload/app/bin/inspect-gearfinder.php",
+      "size": 1101,
+      "sha256": "6d476cfdb1438791e1c8c84d9f49c7427ea587f673ef1e8beca6f4fb8f7b8ebd"
+    },
+    {
+      "path": "payload/app/bin/latest-tier-report.php",
+      "size": 2029,
+      "sha256": "7fd523397e88060a5fa1bd93f6074950da1b65341ce60ea3a270914a593f7de2"
+    },
+    {
+      "path": "payload/app/bin/material-report.php",
+      "size": 3937,
+      "sha256": "0f980785c71958981c6d09f00eb2d8e82ace8dde13124ffe07ff7d95137f348c"
+    },
+    {
+      "path": "payload/app/bin/source-health.php",
+      "size": 663,
+      "sha256": "97bb43adf9d46041735d793a9304c2f598049208822a889eed766dc62bb9c3fe"
+    },
+    {
+      "path": "payload/app/bin/sync-live-sqlite.php",
+      "size": 1041,
+      "sha256": "830455820846d1b2a9cb8f6096a13e6fb7738011deaef5647f5c537434cbe5b2"
+    },
+    {
+      "path": "payload/app/bin/sync-targets-to-gearcenter.php",
+      "size": 2215,
+      "sha256": "73885e0a98a8b58fc95cf79417dbec2d94141bc55fcdcf9b0821e1efa4e5c172"
+    },
+    {
+      "path": "payload/app/bin/system-key-report.php",
+      "size": 2013,
+      "sha256": "6b38a7a07d65ff3e3934764a2f45802aeb1aaccf9694c854376039161592ab7b"
+    },
+    {
+      "path": "payload/app/bin/target-item-report.php",
+      "size": 1590,
+      "sha256": "cb2a409c20dc8d1cd9b429abe538c8f58304347e10ebc05761104deaa9e401e8"
+    },
+    {
+      "path": "payload/app/bin/target-verify-existing.php",
+      "size": 5423,
+      "sha256": "96d77cac334351baf9d60b633223121eddb087345c95070a1bbcb03b88996f4e"
+    },
+    {
+      "path": "payload/app/bin/v1-acceptance.sh",
+      "size": 12145,
+      "sha256": "fb302a281a0a7a785ba4fa0f1097b4e89651b6bdc8f889e555bf179cada8cbfb"
+    },
+    {
+      "path": "payload/app/config/local.php.example",
+      "size": 400,
+      "sha256": "1ebda03f85f08012c449d02e2e167ba828d5ec30126fd5968d9c5bf220203c43"
+    },
+    {
+      "path": "payload/app/docs/CURRENCY_COLLECTOR.md",
+      "size": 547,
+      "sha256": "7b3b187165dd017a65e41c86cfde6c4ba9dd65eede65e5de77efe367b22bbebb"
+    },
+    {
+      "path": "payload/app/docs/FEATURE-CONTRACT-1.0.md",
+      "size": 5373,
+      "sha256": "46fd51eabd3d06e73eb17ba359b36ad7a5148e28f6be4f493397db4fa8c45625"
+    },
+    {
+      "path": "payload/app/docs/LIVE-TESTED-CORE-OVERRIDES.json",
+      "size": 2916,
+      "sha256": "6d26036019f04d2eefe1fdaca0b29658a9fe1b9a077acea226ce6827c950f564"
+    },
+    {
+      "path": "payload/app/docs/LIVE-TESTED-CORE.sha256",
+      "size": 4347,
+      "sha256": "42b722ba0e0534492201dbbef8c58979e3d7e25688f1e0d98356a11f9faaeb5d"
+    },
+    {
+      "path": "payload/app/public/advanced.php",
+      "size": 105552,
+      "sha256": "fd6803ad47c6d3304963b9cfc297831ac31599e69429f8f521824f5f96671aab"
+    },
+    {
+      "path": "payload/app/public/assets/gp10/app.js",
+      "size": 535,
+      "sha256": "fb0ceb629096f5ea7fe09fa7e30334a7b3af0c34a514ee00a825659476c30ae9"
+    },
+    {
+      "path": "payload/app/public/assets/gp10/character-state.js",
+      "size": 4936,
+      "sha256": "0c26413b865614ede55679fa99a25db2044cd9ba62df5c30f5cd31c825a18222"
+    },
+    {
+      "path": "payload/app/public/assets/gp10/embedded-panel.js",
+      "size": 46405,
+      "sha256": "5627ac02a62bd3eb4872e7931f4c74f394c7416f0c1b497beac2d97bf30281db"
+    },
+    {
+      "path": "payload/app/public/icon.svg",
+      "size": 248,
+      "sha256": "6016cba09fb6b54ea72f719da91d8df9a9be1fb0ad43fce47bc0fab6508c5703"
+    },
+    {
+      "path": "payload/app/public/index.php",
+      "size": 598,
+      "sha256": "9fbafdefb18ee0c38d6e5fed63101a2cccf14736b7a30e8521fbad0ffad99e0d"
+    },
+    {
+      "path": "payload/app/public/manifest.webmanifest",
+      "size": 333,
+      "sha256": "e224c5e69717242851a039f39b327b23141c7efd9c66519d7d129aa31fe16539"
+    },
+    {
+      "path": "payload/app/public/router.php",
+      "size": 206,
+      "sha256": "b15fb836bff94f11a010dd78e094e98f959a78bca1082f9965ba6d295eb3a08f"
+    },
+    {
+      "path": "payload/app/public/sw.js",
+      "size": 1181,
+      "sha256": "f75a87bebadc4e03fa974cebd775eacb3dbcf11338bc440199726108e89cd7db"
+    },
+    {
+      "path": "payload/app/shared/auto_prepend_file.php",
+      "size": 506,
+      "sha256": "1cb09282d2a5f38772ad9ebcec274b9538d0f4b6515f64841f52caa9667c3002"
+    },
+    {
+      "path": "payload/app/shared/bin/php",
+      "size": 18,
+      "sha256": "16f990995f5084372974d6655697ce4e56663d9b5b987a07344bd27e2c1e7e26"
+    },
+    {
+      "path": "payload/app/shared/php.ini",
+      "size": 764,
+      "sha256": "3052c8eb99adf313faf2c98eaadd4d7917fc549443cf3cc150e102dedbdaeca4"
+    },
+    {
+      "path": "payload/app/sql/schema.sql",
+      "size": 22182,
+      "sha256": "a11916b0445b88a0d6f987daaf9842fad3c1ea69c16e16b9be5526fb0eee8594"
+    },
+    {
+      "path": "payload/app/src/AcquisitionRouteService.php",
+      "size": 9215,
+      "sha256": "5f269880c5d2528fa0926a6ba736d83f25b73b3c1745ae27f65d46147724afcd"
+    },
+    {
+      "path": "payload/app/src/AllJobsTargetImporter.php",
+      "size": 1327,
+      "sha256": "b75f1bee74e52d38f821c2df20dac891b5dfb24b0bd1ebc38814fcd80f904785"
+    },
+    {
+      "path": "payload/app/src/AllJobsTargetParser.php",
+      "size": 28206,
+      "sha256": "e3b81bd1c0f29b872c3bac040291f8d4cfef26c044fefb77a7f2569b87893a7c"
+    },
+    {
+      "path": "payload/app/src/AugmentBridgeImporter.php",
+      "size": 6085,
+      "sha256": "91908489930d2ea8fca9b39d3241c6a0a0228465acb07a667fc30a2f3be46ba1"
+    },
+    {
+      "path": "payload/app/src/AugmentBridgeLocator.php",
+      "size": 370,
+      "sha256": "a06438bac1d54370a52899cce380110c5a87fdc0a9ba7b4db6b22b9cc1d7c56a"
+    },
+    {
+      "path": "payload/app/src/BagMap.php",
+      "size": 747,
+      "sha256": "901c834fb07fc98baa28f01fffbb91278422302981fe01a4b88159ed73edac01"
+    },
+    {
+      "path": "payload/app/src/BgWikiClient.php",
+      "size": 11347,
+      "sha256": "d0667a6333c1cba83251d790ff53f10237344b632b1e42762e1fc211183872b1"
+    },
+    {
+      "path": "payload/app/src/BgWikiEncodingMigrator.php",
+      "size": 2734,
+      "sha256": "1f1f9f240e5e6777e5a2f594b68076af543387c901537943d1363bbb528da3b3"
+    },
+    {
+      "path": "payload/app/src/BgWikiExtractor.php",
+      "size": 35437,
+      "sha256": "48c389bf6fff87cc7aacfcb9b8529a9a8e075657acccc957ae6d223b628227d3"
+    },
+    {
+      "path": "payload/app/src/BgWikiItemResolver.php",
+      "size": 5105,
+      "sha256": "70a5e5cead632e70e857ae9bac9df238bf991eedc1f8e122966a7b7af57bd20b"
+    },
+    {
+      "path": "payload/app/src/BgWikiRepository.php",
+      "size": 7298,
+      "sha256": "c1255c58601cdb4563022876490e1db256fa8e4070b39e9fd9eb82d3f31013d9"
+    },
+    {
+      "path": "payload/app/src/CanonicalItemIdentityService.php",
+      "size": 8728,
+      "sha256": "ef138883652b589cb04de25987d85ab2c4ce679fc1a067646527b32e7ae3cc60"
+    },
+    {
+      "path": "payload/app/src/CanonicalJson.php",
+      "size": 974,
+      "sha256": "3c9c957c609e33eca8ac39b2020e655fbca0f1f64b6ec916c0caa3bd2f9feac2"
+    },
+    {
+      "path": "payload/app/src/Config.php",
+      "size": 1013,
+      "sha256": "a410e7bd12ceeac5fc5ca7f6d5d5df78fe7f0d96ad4da75f19168cbdcfe8481b"
+    },
+    {
+      "path": "payload/app/src/CoverageAnalyzer.php",
+      "size": 17823,
+      "sha256": "2af9cde5a67c118825aa17109f79e2125a85678f0c56c560c3d593c56a605876"
+    },
+    {
+      "path": "payload/app/src/CoverageCache.php",
+      "size": 9301,
+      "sha256": "90b8d69a01da50e98fcc8d95ce031388ee729fa35555f57e6474bc768be530b1"
+    },
+    {
+      "path": "payload/app/src/Database.php",
+      "size": 2060,
+      "sha256": "bfd7ff2ef830483fc114cc329d0436df8a4e19019b8143622f7824eccfa1bce0"
+    },
+    {
+      "path": "payload/app/src/GearFinderImporter.php",
+      "size": 10192,
+      "sha256": "3e0ff2474dd4753de3baff735333248c20282a9013d437d148d3ae594b4fab25"
+    },
+    {
+      "path": "payload/app/src/GearFinderLocator.php",
+      "size": 2660,
+      "sha256": "0ba8b5a40fb957c47f6853b5ef11a212d62e2d500f3c109e63342362911c1769"
+    },
+    {
+      "path": "payload/app/src/GearFinderNormalizer.php",
+      "size": 4423,
+      "sha256": "34b02b5cc6936803cb0a4eec316f98a3be731238c32d001fab5f693791ddc622"
+    },
+    {
+      "path": "payload/app/src/GoalRepository.php",
+      "size": 1978,
+      "sha256": "474109ae931de06ddaf70ee3d61a6030a3d76d0662f837a8290542539314a154"
+    },
+    {
+      "path": "payload/app/src/ItemCatalog.php",
+      "size": 19835,
+      "sha256": "458e5a6d2357ecb0f45062bdd6e18fb126513b2b1cedfa7682e7eb873d8ee68d"
+    },
+    {
+      "path": "payload/app/src/LacImporter.php",
+      "size": 6573,
+      "sha256": "5a5bf2ca98a3bf7bcf9b5abdeb7f3aeb70a72aa463df65ddc3800212da9c2a59"
+    },
+    {
+      "path": "payload/app/src/LacLocator.php",
+      "size": 1774,
+      "sha256": "7dfe97c2c3c2d9a1a2083d56014b1fdc599bc6af267bb26f3276279a7370516c"
+    },
+    {
+      "path": "payload/app/src/LacProfileParser.php",
+      "size": 10617,
+      "sha256": "cb0f889a9aa540fda7e9a1a602391154a47d93526cb98565af9369ea68887744"
+    },
+    {
+      "path": "payload/app/src/LatestTierAudit.php",
+      "size": 6184,
+      "sha256": "b0b0b7376d0fc7f25759f7da77a04ebfd70198345688585e9ef3d97139483ac3"
+    },
+    {
+      "path": "payload/app/src/LiveStateSynchronizer.php",
+      "size": 4237,
+      "sha256": "1d2119e818ea224878182443a846db4085052519d68894e322452dd47ea1b737"
+    },
+    {
+      "path": "payload/app/src/LuaTableParser.php",
+      "size": 9074,
+      "sha256": "b43ae2091f6a5ac86b20accfed10b4a6c4add98ee0a8d11793fa21201f7a4ac2"
+    },
+    {
+      "path": "payload/app/src/ProgressionChainService.php",
+      "size": 22814,
+      "sha256": "63ab397c1e8f5f0ac59b0b0ffdfe8981e178b5bfbd41f033259b9cfbf72439ab"
+    },
+    {
+      "path": "payload/app/src/ProgressionResourceService.php",
+      "size": 13932,
+      "sha256": "90d2309bc91b4a5a6c7a9d74d283c3e7cdf5db95d3ffa0e6c715e7c9431b60e8"
+    },
+    {
+      "path": "payload/app/src/ProgressionSystemService.php",
+      "size": 57831,
+      "sha256": "98ebff2626e9b68981c541db05fb492df7a5cf47a75c414c65cb44daf9c975ad"
+    },
+    {
+      "path": "payload/app/src/ReadinessService.php",
+      "size": 1454,
+      "sha256": "c333613a2821da0695771284697144c0202f9988f93a453c6c28f538bf80406f"
+    },
+    {
+      "path": "payload/app/src/RequirementMatcher.php",
+      "size": 6677,
+      "sha256": "8b9460f4fccbe019be7e96dfa8ffdc2b6bb7cf70847285848f14d945716cde6f"
+    },
+    {
+      "path": "payload/app/src/ResourceInventoryRepository.php",
+      "size": 3071,
+      "sha256": "c8cdd1d890b5e63b16e6fee1887a7a0e06a1f11b77a9ba6e31216ef01fd6f6fe"
+    },
+    {
+      "path": "payload/app/src/ResourceSnapshotImporter.php",
+      "size": 8002,
+      "sha256": "baed334f0902a73be173d343fc69eb9766dbfec20d3db992abbcfd5586a22d1b"
+    },
+    {
+      "path": "payload/app/src/RuntimePlanningOverlayExporter.php",
+      "size": 16241,
+      "sha256": "3d1fbcb2766fb3dc62deb2a1b999a96568c9e88e027d573cd72da23b9188916f"
+    },
+    {
+      "path": "payload/app/src/SnapshotDiffer.php",
+      "size": 2236,
+      "sha256": "ce72a8883e681c926f88a4a55c17f380ed6081d392af722e60f0dc85e7cd685d"
+    },
+    {
+      "path": "payload/app/src/SourceHealth.php",
+      "size": 3465,
+      "sha256": "ac3ed77730f2860776d68e5615b30ec535005f28c4fb6f69b7c46810f181f2d7"
+    },
+    {
+      "path": "payload/app/src/SystemFreshnessRegistry.php",
+      "size": 15769,
+      "sha256": "4eda1ec72c7dc7567e2c15141d6b05cb6ba6dafe538a000342c060b15d85def9"
+    },
+    {
+      "path": "payload/app/src/TargetChainCompletenessService.php",
+      "size": 5285,
+      "sha256": "39c1d064f0850587eb5f3a8bdd2037a46a214e1a7020a851d9fbfd2334b0a14a"
+    },
+    {
+      "path": "payload/app/src/TargetCoverageReport.php",
+      "size": 4169,
+      "sha256": "4400d21fefec3a4e52afab7b2a0ad1b28250a870a2ffaae1fc54e909926ea0f4"
+    },
+    {
+      "path": "payload/app/src/TargetDetailReconciler.php",
+      "size": 14496,
+      "sha256": "cdf090dc3251b8ef14a1e8b20865fa346cbbcea72ac99f018cde183fb5f707a7"
+    },
+    {
+      "path": "payload/app/src/TargetPrefetchService.php",
+      "size": 2371,
+      "sha256": "0892fe5acf05f4d792213211ed5709f7aadd1310831a4c4a619d8828c47127bc"
+    },
+    {
+      "path": "payload/app/src/TargetRepository.php",
+      "size": 10493,
+      "sha256": "04327d69962b8b228ffbdf3c5a5a76976bf2dea00ec40b23a1b61886fa197538"
+    },
+    {
+      "path": "payload/app/src/TargetRequirementsExporter.php",
+      "size": 6611,
+      "sha256": "5a3714db93ae8f10ddd160461fc5952baf296b5bda125aeb55a81c8181380b78"
+    },
+    {
+      "path": "payload/app/src/TargetSourceMetadataFixer.php",
+      "size": 4071,
+      "sha256": "924604a648c78ed6a07ba20882745316f36d94280fcd70d1dfaa2dbeb0133630"
+    },
+    {
+      "path": "payload/app/src/TargetVerificationService.php",
+      "size": 6881,
+      "sha256": "ddcf2343bb57b6fd4827bfccbb50dc8ab6f3a7f6d7e881f0101d1179dda732f3"
+    },
+    {
+      "path": "payload/app/src/TaskRepository.php",
+      "size": 4541,
+      "sha256": "4e6c88fdeb8a6ed060a700b6a77128d4bc6b1c1090ef31b77ef6e6d9f5abff4d"
+    },
+    {
+      "path": "payload/app/src/bootstrap.php",
+      "size": 2387,
+      "sha256": "733771b18b1a61a35df49f4476a52d55bc056ffcd566b19fcbd4f9d8bb6bc138"
+    },
+    {
+      "path": "payload/ashita/GearplanerBridge/GearplanerBridge.lua",
+      "size": 36511,
+      "sha256": "14bd6ae64d4e14e1dd58e39eba658a7e4826ae010d0264fa0322c3f333f5eaca"
+    },
+    {
+      "path": "payload/center/patch_ffxi_center.py",
+      "size": 7479,
+      "sha256": "5feb74ee5a5803786c0962e61c7e283fa951e03a446bdf2ef042cc095e62b438"
+    },
+    {
+      "path": "payload/lac/gearcenter_bridge.lua",
+      "size": 21768,
+      "sha256": "f76e7f70c4b0f8c7f4fbd3115031ae43b60a9100f6bf378ef20583124d540fa1"
+    },
+    {
+      "path": "payload/points/gearplaner_points_export.lua.inc",
+      "size": 7777,
+      "sha256": "6d0ec0c0929669bb16089f13419eba5b518ba072aaf01394162190b18df25926"
+    },
+    {
+      "path": "payload/points/patch_points_export.py",
+      "size": 3588,
+      "sha256": "24e833352894e9cb77b5d8f6b7770fae2303beb10a8ac6c83eb0811cb99cd3fd"
+    },
+    {
+      "path": "payload/runtime/bridge/augment_state.py",
+      "size": 14425,
+      "sha256": "cbdedb92c115c7192b17ea896b5556372bae37e19a7b33e34fa7e91e96efb5ee"
+    },
+    {
+      "path": "payload/runtime/bridge/bgwiki_knowledge.py",
+      "size": 11128,
+      "sha256": "6716c41f9b7566df537da774842c4eace7d3cace3c0edfb68d5a0df3b37c698e"
+    },
+    {
+      "path": "payload/runtime/bridge/character_state.py",
+      "size": 20100,
+      "sha256": "4375dbf9e4833eb8a30c45a235f25591d07d6d3e25c60994a6f57ddddf3042ea"
+    },
+    {
+      "path": "payload/runtime/bridge/currency_catalog.json",
+      "size": 38108,
+      "sha256": "27221d6ee53b3d60338f5e6b066e051b40086be087e6463a246a9b19b0a0a8ce"
+    },
+    {
+      "path": "payload/runtime/bridge/farming_planner.py",
+      "size": 17518,
+      "sha256": "a7110957b98d8b2fcad29527211256b0f9a0d510d5588142d3d338e5495fa758"
+    },
+    {
+      "path": "payload/runtime/bridge/gearlab_adapter.py",
+      "size": 18925,
+      "sha256": "9b9d66fe42b8b04d2d14d6a5d09518067174a29daea74e397dabbf8e53db0404"
+    },
+    {
+      "path": "payload/runtime/bridge/points_state.py",
+      "size": 1181,
+      "sha256": "e7bfc20d3faf67a1c7426e28043fe967919edf7f1096255cef81571b90e18a52"
+    },
+    {
+      "path": "payload/runtime/bridge/resource_planner.py",
+      "size": 23081,
+      "sha256": "2ca71577ca1113055b3af77dd0766a7d67d013bd0b9b4cfbab649d841550f330"
+    },
+    {
+      "path": "payload/runtime/bridge/runtime_overlay.py",
+      "size": 18560,
+      "sha256": "02ebb537734ececb016580b8ee97593c31e4005c51a0a9256cf254071a05b3ea"
+    },
+    {
+      "path": "payload/runtime/bridge/server.py",
+      "size": 32884,
+      "sha256": "ae654e9d627488d0ff67ead38325612304803f96ec425c26fd43256699632569"
+    },
+    {
+      "path": "payload/runtime/bridge/source_health.py",
+      "size": 7139,
+      "sha256": "468737f7c509746431917185056b4d51ef3ddf11e4d455a2ce4ea81e4ca06067"
+    },
+    {
+      "path": "payload/scripts/gear-center-services.sh",
+      "size": 11600,
+      "sha256": "bba8bcac0738e6964e9e10682d28dc4450231d2bd10aec8ae38298125b167224"
+    },
+    {
+      "path": "payload/scripts/gear-center-status.sh",
+      "size": 718,
+      "sha256": "05c81fc87616605e0f7856240e799d80632a570e2a83cee317713540e25d2789"
+    },
+    {
+      "path": "payload/scripts/open-gear-center.sh",
+      "size": 1217,
+      "sha256": "a101eabc6dd64ff361514c48ffa2a026f2f12d0ef867d52648fa08db86fbc4fa"
+    },
+    {
+      "path": "payload/scripts/start-ffxi-center-with-gear-center.sh",
+      "size": 249,
+      "sha256": "2df61882aa9b10d8aafbf7301e2fcf9f818a89044ba507961ed1c010dc090556"
+    },
+    {
+      "path": "payload/scripts/start-gear-center-api.sh",
+      "size": 2504,
+      "sha256": "6bedc2b8028c67cd680e1fe41e979fedcdfbf296f51ea8e80256342fa55d157b"
+    },
+    {
+      "path": "payload/scripts/start-gear-center-web.sh",
+      "size": 535,
+      "sha256": "8e605c7c9f07e7c67f903e6beeaad3f8574bc54e7e678b8bbd30d677f4d8276b"
+    },
+    {
+      "path": "rollback-1.0.sh",
+      "size": 6849,
+      "sha256": "978f1737e679707e9ef07b3ea3ab8b8b6c423a124193d3232e69b720396778cd"
+    },
+    {
+      "path": "seed-data/gear-center.sqlite",
+      "size": 335872,
+      "sha256": "7f9724977312f6fb88790a1a1dad3094fa2153fb52fb285e6951dd21df636fcd"
+    },
+    {
+      "path": "tests/bgwiki-encoding-smoke.php",
+      "size": 1686,
+      "sha256": "666bfbd29f67e617032bd9a9a165a57fff1c93ddf9506aa94975dae2951d1841"
+    },
+    {
+      "path": "tests/fixtures/sample-augments.json",
+      "size": 311,
+      "sha256": "39dce2cc4840795431a6a5e21cefabdecf5ca8c2460299d319c45b879d69cbdc"
+    },
+    {
+      "path": "tests/fixtures/sample-goals-v06.json",
+      "size": 143,
+      "sha256": "728b1ab52a45d22c472e1274d932ff7f6e51313b0ec846eda332b03e23274dd7"
+    },
+    {
+      "path": "tests/fixtures/sample-points-v05.json",
+      "size": 1471,
+      "sha256": "bbc17bc1c64683b040fad3e451f26a324fda7bfd7c59fa93eb90211bea48328e"
+    },
+    {
+      "path": "tests/fixtures/sample-requirements-v06.json",
+      "size": 912,
+      "sha256": "aa71a95ef63586bb1c0c5046bdaaef7b717d7bb73f60ea5c851014bb154b3a23"
+    },
+    {
+      "path": "tests/fixtures/sample-snapshot-v05.json",
+      "size": 3028,
+      "sha256": "d65415d1bbf5cc4c2342e22ee6277396907f0a9564fccda531ec4aab89a5ae71"
+    },
+    {
+      "path": "tests/fixtures/sample-snapshot-v06.json",
+      "size": 5074,
+      "sha256": "7b301f0bca2d4cae970a7c02a64fff35c3c571467c829e494609c6c92ede07f3"
+    },
+    {
+      "path": "tests/progression-chain-smoke.php",
+      "size": 7994,
+      "sha256": "050ae578dd80700de9e167912be312d10e68af4713f12ecc312d530cf5f9a3a7"
+    },
+    {
+      "path": "tests/progression-resources-smoke.php",
+      "size": 2628,
+      "sha256": "91fab41eed7a622747cb04d939140bcd60f16154c090f834d3b8abad4e500f87"
+    },
+    {
+      "path": "tests/progression-systems-smoke.php",
+      "size": 4023,
+      "sha256": "4a586d71e3e36840ee874f66b1bb76888dee179ab2fa0d0129a5e25183888c73"
+    },
+    {
+      "path": "tests/test_api_v1.py",
+      "size": 5895,
+      "sha256": "84a099173784af7efac2da4246b4f1adab9c14840c4cc35043966ead7739648f"
+    },
+    {
+      "path": "tests/test_center_patch.py",
+      "size": 3165,
+      "sha256": "e6abd3376785d029370c8b3b0c6e821ed6e2c478d0417357b3205881a8583f0e"
+    },
+    {
+      "path": "tests/test_feature_contract.py",
+      "size": 12542,
+      "sha256": "609adfb9693356113bc111042012650e0325a726690e7bc587fd1eb4b1d672e7"
+    },
+    {
+      "path": "tests/test_historical_runtime_contract.py",
+      "size": 9359,
+      "sha256": "9d0590996798ae3a940fc1d3755b2f06dab13a4f573b2c9a72105740b9d4a4fb"
+    },
+    {
+      "path": "tests/test_hotfix_contract.py",
+      "size": 12753,
+      "sha256": "429f1b76f0526d7696973a35e14fb9f5000c83abbe6d1b4589473f792f25fe8e"
+    },
+    {
+      "path": "tests/test_lifecycle.sh",
+      "size": 9992,
+      "sha256": "15aae4107ce8b35542df166620a00564ea0d467188a437fb88e20a37d4fb4116"
+    },
+    {
+      "path": "tests/test_live_sqlite_lkg.php",
+      "size": 4645,
+      "sha256": "6de2982273034b1b9ad9f49c9d170a6baa9676cac72f2c9f238cebd11a1b5efb"
+    },
+    {
+      "path": "tests/test_package_cleanliness.py",
+      "size": 9278,
+      "sha256": "c630b3975b165fd2fa1c249b49c01db85ed2e83576fee91a4d6fe7963b20ca80"
+    },
+    {
+      "path": "tests/test_php_pdo_e2e.php",
+      "size": 13750,
+      "sha256": "af983da87d89969c342034e3aaacdac5a70618d98bc3db8aa50eae65c26a2422"
+    },
+    {
+      "path": "tests/test_regressions.py",
+      "size": 16238,
+      "sha256": "f9f09e02eae95d4ac0fe484881dd9ba61a117032900d671d5cc9bdbdfb03d9e3"
+    },
+    {
+      "path": "tests/test_rules_regressions.py",
+      "size": 19458,
+      "sha256": "6d0aa977a1fc78d453744ac32b625497f0efd5727c7194ff943fb11ad9f5349d"
+    },
+    {
+      "path": "tests/test_standalone_contract.py",
+      "size": 2475,
+      "sha256": "f10401ee62dbacf59ac216a9d1accd444488f6c2a538d96eac14eadb057dab3f"
+    },
+    {
+      "path": "tests/test_standalone_lifecycle.sh",
+      "size": 4322,
+      "sha256": "a94ced99507e441cde04118721242e70c02aecc6f61f7d5d412513fac781b7ef"
+    },
+    {
+      "path": "tests/test_ui_helpers.mjs",
+      "size": 785,
+      "sha256": "aaad8a46cacb2628548aaca6e3820d941386b4ae66baf99d2726efec497a88e1"
+    },
+    {
+      "path": "tools/refresh-package-metadata.py",
+      "size": 2318,
+      "sha256": "90b87bbf6d4430d8cbf2addab9c8a49d6ee80616d33e4370a6ff96c0970f9600"
+    }
+  ]
+}

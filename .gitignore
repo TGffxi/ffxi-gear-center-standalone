@@ -1,0 +1,15 @@
+# Runtime/private state
+payload/app/data/*
+!payload/app/data/.gitkeep
+payload/app/config/local.php
+*.sqlite-wal
+*.sqlite-shm
+*.log
+*.tmp
+
+# Python/editor debris
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store

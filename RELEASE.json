@@ -1,0 +1,68 @@
+{
+  "name": "FFXI Gear Center",
+  "version": "1.0.2",
+  "date": "2026-09-28",
+  "kind": "public-standalone-distribution",
+  "basis": "public-sanitized 1.0.1 product code plus standalone lifecycle delta",
+  "release_status": "PUBLIC-STANDALONE",
+  "public_distribution": {
+    "private_release_sha256": "922914822e47a832ad544fdec8f39639ba6c7b30d1cdc4ee85536479768642da",
+    "player_runtime_data_bundled": false,
+    "third_party_cache_bundled": false,
+    "seed_database": "schema-only",
+    "character_selection": "install-time auto-detect or GEAR_CENTER_CHARACTER",
+    "loopback_services": true
+  },
+  "ui": {
+    "single_navigation": true,
+    "main_sections": [
+      "Übersicht",
+      "Inventar",
+      "Gearplanung",
+      "Farmplan",
+      "Gear-Vergleich",
+      "Charakter",
+      "Datenstatus"
+    ],
+    "technical_views_separated": true,
+    "physical_inventory_instances": true,
+    "search_focus_preserved": true
+  },
+  "lifecycle": {
+    "ffxi_center_starts_services": "optional",
+    "last_owner_stops_owned_services": true,
+    "multi_center_owner_tokens": true,
+    "preexisting_services_not_adopted": true,
+    "api_port": 8765,
+    "web_port": 8787,
+    "web_document_root": "public",
+    "hard_crash_watchdog": true,
+    "actual_center_process_is_owner": true,
+    "standalone_owner_process": true,
+    "manual_lifecycle": true
+  },
+  "feature_contract": {
+    "historical_versions": "0.1-0.8",
+    "item_catalog_bgwiki_routes_progression": true,
+    "lac_sets_goals_notes_todos_snapshot_diff": true,
+    "key_items": true,
+    "farming_drilldowns": true,
+    "combat_capture_explicitly_retired": true,
+    "cp932_ashita_compatibility": true,
+    "sqlite_goals_and_bgwiki_runtime_overlay": true,
+    "last_known_good_offline_inventory": true
+  },
+  "sanitization": {
+    "hard_coded_private_character_removed": true,
+    "private_seed_rows_removed": true,
+    "bundled_bgwiki_and_guide_cache_removed": true,
+    "internal_acceptance_handoff_docs_removed": true,
+    "public_privacy_and_third_party_docs_added": true
+  },
+  "standalone": {
+    "ffxi_center_required": false,
+    "manual_start_stop_restart_open": true,
+    "optional_ffxi_center_integration": true,
+    "last_known_good_without_ffxi_running": true
+  }
+}

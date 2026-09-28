@@ -1,0 +1,1549 @@
+{
+  "schema": "gearplaner.currency-catalog/0.5",
+  "source": {
+    "project": "Windower/Lua",
+    "file": "addons/libs/packets/fields.lua",
+    "branch": "dev",
+    "url": "https://raw.githubusercontent.com/Windower/Lua/refs/heads/dev/addons/libs/packets/fields.lua",
+    "verified_date": "2026-09-01",
+    "notes": "Offsets are raw packet offsets. Ashita lstruct reads them at raw_offset + 1.",
+    "known_source_notes": [
+      "Windower fields.lua currently prints E0 beside Lightning Crystals; the contiguous 16-bit crystal sequence E8/EA/EC/EE/F0/F2/F4/F6 requires F0, which Gearplaner uses.",
+      "Unknown/padding fields are intentionally omitted from semantic parsing but the complete raw packets remain captured."
+    ]
+  },
+  "packets": {
+    "0x113": [
+      {
+        "packet": "0x113",
+        "raw_offset": 4,
+        "ashita_offset": 5,
+        "fmt": "i",
+        "key": "conquest_sandoria",
+        "label": "Conquest Points (San d'Oria)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 8,
+        "ashita_offset": 9,
+        "fmt": "i",
+        "key": "conquest_bastok",
+        "label": "Conquest Points (Bastok)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 12,
+        "ashita_offset": 13,
+        "fmt": "i",
+        "key": "conquest_windurst",
+        "label": "Conquest Points (Windurst)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 16,
+        "ashita_offset": 17,
+        "fmt": "H",
+        "key": "beastmen_seals",
+        "label": "Beastman Seals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 18,
+        "ashita_offset": 19,
+        "fmt": "H",
+        "key": "kindred_seals",
+        "label": "Kindred Seals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 20,
+        "ashita_offset": 21,
+        "fmt": "H",
+        "key": "kindred_crests",
+        "label": "Kindred Crests"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 22,
+        "ashita_offset": 23,
+        "fmt": "H",
+        "key": "high_kindred_crests",
+        "label": "High Kindred Crests"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 24,
+        "ashita_offset": 25,
+        "fmt": "H",
+        "key": "sacred_kindred_crests",
+        "label": "Sacred Kindred Crests"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 26,
+        "ashita_offset": 27,
+        "fmt": "H",
+        "key": "ancient_beastcoins",
+        "label": "Ancient Beastcoins"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 28,
+        "ashita_offset": 29,
+        "fmt": "H",
+        "key": "valor_points",
+        "label": "Valor Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 30,
+        "ashita_offset": 31,
+        "fmt": "H",
+        "key": "scylds",
+        "label": "Scylds"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 32,
+        "ashita_offset": 33,
+        "fmt": "i",
+        "key": "guild_points_fishing",
+        "label": "Guild Points (Fishing)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 36,
+        "ashita_offset": 37,
+        "fmt": "i",
+        "key": "guild_points_woodworking",
+        "label": "Guild Points (Woodworking)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 40,
+        "ashita_offset": 41,
+        "fmt": "i",
+        "key": "guild_points_smithing",
+        "label": "Guild Points (Smithing)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 44,
+        "ashita_offset": 45,
+        "fmt": "i",
+        "key": "guild_points_goldsmithing",
+        "label": "Guild Points (Goldsmithing)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 48,
+        "ashita_offset": 49,
+        "fmt": "i",
+        "key": "guild_points_weaving",
+        "label": "Guild Points (Weaving)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 52,
+        "ashita_offset": 53,
+        "fmt": "i",
+        "key": "guild_points_leathercraft",
+        "label": "Guild Points (Leathercraft)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 56,
+        "ashita_offset": 57,
+        "fmt": "i",
+        "key": "guild_points_bonecraft",
+        "label": "Guild Points (Bonecraft)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 60,
+        "ashita_offset": 61,
+        "fmt": "i",
+        "key": "guild_points_alchemy",
+        "label": "Guild Points (Alchemy)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 64,
+        "ashita_offset": 65,
+        "fmt": "i",
+        "key": "guild_points_cooking",
+        "label": "Guild Points (Cooking)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 68,
+        "ashita_offset": 69,
+        "fmt": "i",
+        "key": "cinders",
+        "label": "Cinders"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 72,
+        "ashita_offset": 73,
+        "fmt": "B",
+        "key": "synergy_fewell_fire",
+        "label": "Synergy Fewell (Fire)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 73,
+        "ashita_offset": 74,
+        "fmt": "B",
+        "key": "synergy_fewell_ice",
+        "label": "Synergy Fewell (Ice)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 74,
+        "ashita_offset": 75,
+        "fmt": "B",
+        "key": "synergy_fewell_wind",
+        "label": "Synergy Fewell (Wind)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 75,
+        "ashita_offset": 76,
+        "fmt": "B",
+        "key": "synergy_fewell_earth",
+        "label": "Synergy Fewell (Earth)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 76,
+        "ashita_offset": 77,
+        "fmt": "B",
+        "key": "synergy_fewell_lightning",
+        "label": "Synergy Fewell (Lightning)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 77,
+        "ashita_offset": 78,
+        "fmt": "B",
+        "key": "synergy_fewell_water",
+        "label": "Synergy Fewell (Water)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 78,
+        "ashita_offset": 79,
+        "fmt": "B",
+        "key": "synergy_fewell_light",
+        "label": "Synergy Fewell (Light)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 79,
+        "ashita_offset": 80,
+        "fmt": "B",
+        "key": "synergy_fewell_dark",
+        "label": "Synergy Fewell (Dark)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 80,
+        "ashita_offset": 81,
+        "fmt": "i",
+        "key": "ballista_points",
+        "label": "Ballista Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 84,
+        "ashita_offset": 85,
+        "fmt": "i",
+        "key": "fellow_points",
+        "label": "Fellow Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 88,
+        "ashita_offset": 89,
+        "fmt": "H",
+        "key": "chocobucks_sandoria",
+        "label": "Chocobucks (San d'Oria)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 90,
+        "ashita_offset": 91,
+        "fmt": "H",
+        "key": "chocobucks_bastok",
+        "label": "Chocobucks (Bastok)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 92,
+        "ashita_offset": 93,
+        "fmt": "H",
+        "key": "chocobucks_windurst",
+        "label": "Chocobucks (Windurst)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 94,
+        "ashita_offset": 95,
+        "fmt": "H",
+        "key": "daily_tally",
+        "label": "Daily Tally"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 96,
+        "ashita_offset": 97,
+        "fmt": "i",
+        "key": "research_marks",
+        "label": "Research Marks"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 100,
+        "ashita_offset": 101,
+        "fmt": "B",
+        "key": "wizened_tunnel_worms",
+        "label": "Wizened Tunnel Worms"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 101,
+        "ashita_offset": 102,
+        "fmt": "B",
+        "key": "wizened_morion_worms",
+        "label": "Wizened Morion Worms"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 102,
+        "ashita_offset": 103,
+        "fmt": "B",
+        "key": "wizened_phantom_worms",
+        "label": "Wizened Phantom Worms"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 104,
+        "ashita_offset": 105,
+        "fmt": "i",
+        "key": "moblin_marbles",
+        "label": "Moblin Marbles"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 108,
+        "ashita_offset": 109,
+        "fmt": "H",
+        "key": "infamy",
+        "label": "Infamy"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 110,
+        "ashita_offset": 111,
+        "fmt": "H",
+        "key": "prestige",
+        "label": "Prestige"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 112,
+        "ashita_offset": 113,
+        "fmt": "i",
+        "key": "legion_points",
+        "label": "Legion Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 116,
+        "ashita_offset": 117,
+        "fmt": "i",
+        "key": "sparks",
+        "label": "Sparks of Eminence"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 120,
+        "ashita_offset": 121,
+        "fmt": "i",
+        "key": "shining_stars",
+        "label": "Shining Stars"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 124,
+        "ashita_offset": 125,
+        "fmt": "i",
+        "key": "imperial_standing",
+        "label": "Imperial Standing"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 128,
+        "ashita_offset": 129,
+        "fmt": "i",
+        "key": "assault_points_leujaoam",
+        "label": "Assault Points (Leujaoam Sanctum)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 132,
+        "ashita_offset": 133,
+        "fmt": "i",
+        "key": "assault_points_mjtg",
+        "label": "Assault Points (Mamool Ja Training Grounds)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 136,
+        "ashita_offset": 137,
+        "fmt": "i",
+        "key": "assault_points_lebros",
+        "label": "Assault Points (Lebros Cavern)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 140,
+        "ashita_offset": 141,
+        "fmt": "i",
+        "key": "assault_points_periqia",
+        "label": "Assault Points (Periqia)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 144,
+        "ashita_offset": 145,
+        "fmt": "i",
+        "key": "assault_points_ilrusi",
+        "label": "Assault Points (Ilrusi Atoll)"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 148,
+        "ashita_offset": 149,
+        "fmt": "i",
+        "key": "nyzul_tokens",
+        "label": "Nyzul Tokens"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 152,
+        "ashita_offset": 153,
+        "fmt": "i",
+        "key": "zeni",
+        "label": "Zeni"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 156,
+        "ashita_offset": 157,
+        "fmt": "i",
+        "key": "jettons",
+        "label": "Jettons"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 160,
+        "ashita_offset": 161,
+        "fmt": "i",
+        "key": "therion_ichor",
+        "label": "Therion Ichor"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 164,
+        "ashita_offset": 165,
+        "fmt": "i",
+        "key": "allied_notes",
+        "label": "Allied Notes"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 168,
+        "ashita_offset": 169,
+        "fmt": "H",
+        "key": "aman_vouchers_stored",
+        "label": "A.M.A.N. Vouchers Stored"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 170,
+        "ashita_offset": 171,
+        "fmt": "H",
+        "key": "login_points",
+        "label": "Login Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 172,
+        "ashita_offset": 173,
+        "fmt": "i",
+        "key": "cruor",
+        "label": "Cruor"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 176,
+        "ashita_offset": 177,
+        "fmt": "i",
+        "key": "resistance_credits",
+        "label": "Resistance Credits"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 180,
+        "ashita_offset": 181,
+        "fmt": "i",
+        "key": "dominion_notes",
+        "label": "Dominion Notes"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 184,
+        "ashita_offset": 185,
+        "fmt": "B",
+        "key": "battle_trophies_5th_echelon",
+        "label": "5th Echelon Battle Trophies"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 185,
+        "ashita_offset": 186,
+        "fmt": "B",
+        "key": "battle_trophies_4th_echelon",
+        "label": "4th Echelon Battle Trophies"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 186,
+        "ashita_offset": 187,
+        "fmt": "B",
+        "key": "battle_trophies_3rd_echelon",
+        "label": "3rd Echelon Battle Trophies"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 187,
+        "ashita_offset": 188,
+        "fmt": "B",
+        "key": "battle_trophies_2nd_echelon",
+        "label": "2nd Echelon Battle Trophies"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 188,
+        "ashita_offset": 189,
+        "fmt": "B",
+        "key": "battle_trophies_1st_echelon",
+        "label": "1st Echelon Battle Trophies"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 189,
+        "ashita_offset": 190,
+        "fmt": "B",
+        "key": "cave_conservation_points",
+        "label": "Cave Conservation Points"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 190,
+        "ashita_offset": 191,
+        "fmt": "B",
+        "key": "imperial_army_id_tags",
+        "label": "Imperial Army ID Tags"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 191,
+        "ashita_offset": 192,
+        "fmt": "B",
+        "key": "op_credits",
+        "label": "Op Credits"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 192,
+        "ashita_offset": 193,
+        "fmt": "i",
+        "key": "traverser_stones",
+        "label": "Traverser Stones"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 196,
+        "ashita_offset": 197,
+        "fmt": "i",
+        "key": "voidstones",
+        "label": "Voidstones"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 200,
+        "ashita_offset": 201,
+        "fmt": "i",
+        "key": "kupofrieds_corundums",
+        "label": "Kupofried's Corundums"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 204,
+        "ashita_offset": 205,
+        "fmt": "B",
+        "key": "moblin_pheromone_sacks",
+        "label": "Moblin Pheromone Sacks"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 206,
+        "ashita_offset": 207,
+        "fmt": "B",
+        "key": "rems_tale_chapter_1",
+        "label": "Rem's Tale Chapter 1"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 207,
+        "ashita_offset": 208,
+        "fmt": "B",
+        "key": "rems_tale_chapter_2",
+        "label": "Rem's Tale Chapter 2"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 208,
+        "ashita_offset": 209,
+        "fmt": "B",
+        "key": "rems_tale_chapter_3",
+        "label": "Rem's Tale Chapter 3"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 209,
+        "ashita_offset": 210,
+        "fmt": "B",
+        "key": "rems_tale_chapter_4",
+        "label": "Rem's Tale Chapter 4"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 210,
+        "ashita_offset": 211,
+        "fmt": "B",
+        "key": "rems_tale_chapter_5",
+        "label": "Rem's Tale Chapter 5"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 211,
+        "ashita_offset": 212,
+        "fmt": "B",
+        "key": "rems_tale_chapter_6",
+        "label": "Rem's Tale Chapter 6"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 212,
+        "ashita_offset": 213,
+        "fmt": "B",
+        "key": "rems_tale_chapter_7",
+        "label": "Rem's Tale Chapter 7"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 213,
+        "ashita_offset": 214,
+        "fmt": "B",
+        "key": "rems_tale_chapter_8",
+        "label": "Rem's Tale Chapter 8"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 214,
+        "ashita_offset": 215,
+        "fmt": "B",
+        "key": "rems_tale_chapter_9",
+        "label": "Rem's Tale Chapter 9"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 215,
+        "ashita_offset": 216,
+        "fmt": "B",
+        "key": "rems_tale_chapter_10",
+        "label": "Rem's Tale Chapter 10"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 224,
+        "ashita_offset": 225,
+        "fmt": "i",
+        "key": "reclamation_marks",
+        "label": "Reclamation Marks"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 228,
+        "ashita_offset": 229,
+        "fmt": "i",
+        "key": "accolades",
+        "label": "Unity Accolades"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 232,
+        "ashita_offset": 233,
+        "fmt": "H",
+        "key": "fire_crystals",
+        "label": "Fire Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 234,
+        "ashita_offset": 235,
+        "fmt": "H",
+        "key": "ice_crystals",
+        "label": "Ice Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 236,
+        "ashita_offset": 237,
+        "fmt": "H",
+        "key": "wind_crystals",
+        "label": "Wind Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 238,
+        "ashita_offset": 239,
+        "fmt": "H",
+        "key": "earth_crystals",
+        "label": "Earth Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 240,
+        "ashita_offset": 241,
+        "fmt": "H",
+        "key": "lightning_crystals",
+        "label": "Lightning Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 242,
+        "ashita_offset": 243,
+        "fmt": "H",
+        "key": "water_crystals",
+        "label": "Water Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 244,
+        "ashita_offset": 245,
+        "fmt": "H",
+        "key": "light_crystals",
+        "label": "Light Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 246,
+        "ashita_offset": 247,
+        "fmt": "H",
+        "key": "dark_crystals",
+        "label": "Dark Crystals"
+      },
+      {
+        "packet": "0x113",
+        "raw_offset": 248,
+        "ashita_offset": 249,
+        "fmt": "i",
+        "key": "deeds",
+        "label": "Deeds"
+      }
+    ],
+    "0x118": [
+      {
+        "packet": "0x118",
+        "raw_offset": 4,
+        "ashita_offset": 5,
+        "fmt": "i",
+        "key": "bayld",
+        "label": "Bayld"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 8,
+        "ashita_offset": 9,
+        "fmt": "H",
+        "key": "kinetic_units",
+        "label": "Kinetic Units"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 10,
+        "ashita_offset": 11,
+        "fmt": "B",
+        "key": "coalition_imprimaturs",
+        "label": "Coalition Imprimaturs"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 11,
+        "ashita_offset": 12,
+        "fmt": "B",
+        "key": "mystical_canteens",
+        "label": "Mystical Canteens"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 12,
+        "ashita_offset": 13,
+        "fmt": "i",
+        "key": "obsidian_fragments",
+        "label": "Obsidian Fragments"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 16,
+        "ashita_offset": 17,
+        "fmt": "H",
+        "key": "lebondopt_wings_stored",
+        "label": "Lebondopt Wings Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 18,
+        "ashita_offset": 19,
+        "fmt": "H",
+        "key": "pulchridopt_wings_stored",
+        "label": "Pulchridopt Wings Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 20,
+        "ashita_offset": 21,
+        "fmt": "i",
+        "key": "mweya_plasm_corpuscles",
+        "label": "Mweya Plasm Corpuscles"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 24,
+        "ashita_offset": 25,
+        "fmt": "B",
+        "key": "ghastly_stones",
+        "label": "Ghastly Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 25,
+        "ashita_offset": 26,
+        "fmt": "B",
+        "key": "ghastly_stones_1",
+        "label": "Ghastly Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 26,
+        "ashita_offset": 27,
+        "fmt": "B",
+        "key": "ghastly_stones_2",
+        "label": "Ghastly Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 27,
+        "ashita_offset": 28,
+        "fmt": "B",
+        "key": "verdigris_stones",
+        "label": "Verdigris Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 28,
+        "ashita_offset": 29,
+        "fmt": "B",
+        "key": "verdigris_stones_1",
+        "label": "Verdigris Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 29,
+        "ashita_offset": 30,
+        "fmt": "B",
+        "key": "verdigris_stones_2",
+        "label": "Verdigris Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 30,
+        "ashita_offset": 31,
+        "fmt": "B",
+        "key": "wailing_stones",
+        "label": "Wailing Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 31,
+        "ashita_offset": 32,
+        "fmt": "B",
+        "key": "wailing_stones_1",
+        "label": "Wailing Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 32,
+        "ashita_offset": 33,
+        "fmt": "B",
+        "key": "wailing_stones_2",
+        "label": "Wailing Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 33,
+        "ashita_offset": 34,
+        "fmt": "B",
+        "key": "snowslit_stones",
+        "label": "Snowslit Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 34,
+        "ashita_offset": 35,
+        "fmt": "B",
+        "key": "snowslit_stones_1",
+        "label": "Snowslit Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 35,
+        "ashita_offset": 36,
+        "fmt": "B",
+        "key": "snowslit_stones_2",
+        "label": "Snowslit Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 36,
+        "ashita_offset": 37,
+        "fmt": "B",
+        "key": "snowtip_stones",
+        "label": "Snowtip Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 37,
+        "ashita_offset": 38,
+        "fmt": "B",
+        "key": "snowtip_stones_1",
+        "label": "Snowtip Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 38,
+        "ashita_offset": 39,
+        "fmt": "B",
+        "key": "snowtip_stones_2",
+        "label": "Snowtip Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 39,
+        "ashita_offset": 40,
+        "fmt": "B",
+        "key": "snowdim_stones",
+        "label": "Snowdim Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 40,
+        "ashita_offset": 41,
+        "fmt": "B",
+        "key": "snowdim_stones_1",
+        "label": "Snowdim Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 41,
+        "ashita_offset": 42,
+        "fmt": "B",
+        "key": "snowdim_stones_2",
+        "label": "Snowdim Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 42,
+        "ashita_offset": 43,
+        "fmt": "B",
+        "key": "snoworb_stones",
+        "label": "Snoworb Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 43,
+        "ashita_offset": 44,
+        "fmt": "B",
+        "key": "snoworb_stones_1",
+        "label": "Snoworb Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 44,
+        "ashita_offset": 45,
+        "fmt": "B",
+        "key": "snoworb_stones_2",
+        "label": "Snoworb Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 45,
+        "ashita_offset": 46,
+        "fmt": "B",
+        "key": "leafslit_stones",
+        "label": "Leafslit Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 46,
+        "ashita_offset": 47,
+        "fmt": "B",
+        "key": "leafslit_stones_1",
+        "label": "Leafslit Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 47,
+        "ashita_offset": 48,
+        "fmt": "B",
+        "key": "leafslit_stones_2",
+        "label": "Leafslit Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 48,
+        "ashita_offset": 49,
+        "fmt": "B",
+        "key": "leaftip_stones",
+        "label": "Leaftip Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 49,
+        "ashita_offset": 50,
+        "fmt": "B",
+        "key": "leaftip_stones_1",
+        "label": "Leaftip Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 50,
+        "ashita_offset": 51,
+        "fmt": "B",
+        "key": "leaftip_stones_2",
+        "label": "Leaftip Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 51,
+        "ashita_offset": 52,
+        "fmt": "B",
+        "key": "leafdim_stones",
+        "label": "Leafdim Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 52,
+        "ashita_offset": 53,
+        "fmt": "B",
+        "key": "leafdim_stones_1",
+        "label": "Leafdim Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 53,
+        "ashita_offset": 54,
+        "fmt": "B",
+        "key": "leafdim_stones_2",
+        "label": "Leafdim Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 54,
+        "ashita_offset": 55,
+        "fmt": "B",
+        "key": "leaforb_stones",
+        "label": "Leaforb Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 55,
+        "ashita_offset": 56,
+        "fmt": "B",
+        "key": "leaforb_stones_1",
+        "label": "Leaforb Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 56,
+        "ashita_offset": 57,
+        "fmt": "B",
+        "key": "leaforb_stones_2",
+        "label": "Leaforb Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 57,
+        "ashita_offset": 58,
+        "fmt": "B",
+        "key": "duskslit_stones",
+        "label": "Duskslit Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 58,
+        "ashita_offset": 59,
+        "fmt": "B",
+        "key": "duskslit_stones_1",
+        "label": "Duskslit Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 59,
+        "ashita_offset": 60,
+        "fmt": "B",
+        "key": "duskslit_stones_2",
+        "label": "Duskslit Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 60,
+        "ashita_offset": 61,
+        "fmt": "B",
+        "key": "dusktip_stones",
+        "label": "Dusktip Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 61,
+        "ashita_offset": 62,
+        "fmt": "B",
+        "key": "dusktip_stones_1",
+        "label": "Dusktip Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 62,
+        "ashita_offset": 63,
+        "fmt": "B",
+        "key": "dusktip_stones_2",
+        "label": "Dusktip Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 63,
+        "ashita_offset": 64,
+        "fmt": "B",
+        "key": "duskdim_stones",
+        "label": "Duskdim Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 64,
+        "ashita_offset": 65,
+        "fmt": "B",
+        "key": "duskdim_stones_1",
+        "label": "Duskdim Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 65,
+        "ashita_offset": 66,
+        "fmt": "B",
+        "key": "duskdim_stones_2",
+        "label": "Duskdim Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 66,
+        "ashita_offset": 67,
+        "fmt": "B",
+        "key": "duskorb_stones",
+        "label": "Duskorb Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 67,
+        "ashita_offset": 68,
+        "fmt": "B",
+        "key": "duskorb_stones_1",
+        "label": "Duskorb Stones +1 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 68,
+        "ashita_offset": 69,
+        "fmt": "B",
+        "key": "duskorb_stones_2",
+        "label": "Duskorb Stones +2 Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 69,
+        "ashita_offset": 70,
+        "fmt": "B",
+        "key": "pellucid_stones",
+        "label": "Pellucid Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 70,
+        "ashita_offset": 71,
+        "fmt": "B",
+        "key": "fern_stones",
+        "label": "Fern Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 71,
+        "ashita_offset": 72,
+        "fmt": "B",
+        "key": "taupe_stones",
+        "label": "Taupe Stones Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 72,
+        "ashita_offset": 73,
+        "fmt": "H",
+        "key": "mellidopt_wings_stored",
+        "label": "Mellidopt Wings Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 74,
+        "ashita_offset": 75,
+        "fmt": "H",
+        "key": "escha_beads",
+        "label": "Escha Beads"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 76,
+        "ashita_offset": 77,
+        "fmt": "i",
+        "key": "escha_silt",
+        "label": "Escha Silt"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 80,
+        "ashita_offset": 81,
+        "fmt": "i",
+        "key": "potpourri",
+        "label": "Potpourri"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 84,
+        "ashita_offset": 85,
+        "fmt": "i",
+        "key": "hallmarks",
+        "label": "Hallmarks"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 88,
+        "ashita_offset": 89,
+        "fmt": "i",
+        "key": "total_hallmarks",
+        "label": "Total Hallmarks"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 92,
+        "ashita_offset": 93,
+        "fmt": "i",
+        "key": "badges_of_gallantry",
+        "label": "Badges of Gallantry"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 96,
+        "ashita_offset": 97,
+        "fmt": "i",
+        "key": "crafter_points",
+        "label": "Crafter Points"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 100,
+        "ashita_offset": 101,
+        "fmt": "B",
+        "key": "fire_crystals_set",
+        "label": "Fire Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 101,
+        "ashita_offset": 102,
+        "fmt": "B",
+        "key": "ice_crystals_set",
+        "label": "Ice Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 102,
+        "ashita_offset": 103,
+        "fmt": "B",
+        "key": "wind_crystals_set",
+        "label": "Wind Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 103,
+        "ashita_offset": 104,
+        "fmt": "B",
+        "key": "earth_crystals_set",
+        "label": "Earth Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 104,
+        "ashita_offset": 105,
+        "fmt": "B",
+        "key": "lightning_crystals_set",
+        "label": "Lightning Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 105,
+        "ashita_offset": 106,
+        "fmt": "B",
+        "key": "water_crystals_set",
+        "label": "Water Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 106,
+        "ashita_offset": 107,
+        "fmt": "B",
+        "key": "light_crystals_set",
+        "label": "Light Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 107,
+        "ashita_offset": 108,
+        "fmt": "B",
+        "key": "dark_crystals_set",
+        "label": "Dark Crystals Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 108,
+        "ashita_offset": 109,
+        "fmt": "B",
+        "key": "mc_s_sr01s_set",
+        "label": "MC-S-SR01s Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 109,
+        "ashita_offset": 110,
+        "fmt": "B",
+        "key": "mc_s_sr02s_set",
+        "label": "MC-S-SR02s Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 110,
+        "ashita_offset": 111,
+        "fmt": "B",
+        "key": "mc_s_sr03s_set",
+        "label": "MC-S-SR03s Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 111,
+        "ashita_offset": 112,
+        "fmt": "B",
+        "key": "liquefaction_spheres_set",
+        "label": "Liquefaction Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 112,
+        "ashita_offset": 113,
+        "fmt": "B",
+        "key": "induration_spheres_set",
+        "label": "Induration Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 113,
+        "ashita_offset": 114,
+        "fmt": "B",
+        "key": "detonation_spheres_set",
+        "label": "Detonation Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 114,
+        "ashita_offset": 115,
+        "fmt": "B",
+        "key": "scission_spheres_set",
+        "label": "Scission Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 115,
+        "ashita_offset": 116,
+        "fmt": "B",
+        "key": "impaction_spheres_set",
+        "label": "Impaction Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 116,
+        "ashita_offset": 117,
+        "fmt": "B",
+        "key": "reverberation_spheres_set",
+        "label": "Reverberation Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 117,
+        "ashita_offset": 118,
+        "fmt": "B",
+        "key": "transfixion_spheres_set",
+        "label": "Transfixion Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 118,
+        "ashita_offset": 119,
+        "fmt": "B",
+        "key": "compression_spheres_set",
+        "label": "Compression Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 119,
+        "ashita_offset": 120,
+        "fmt": "B",
+        "key": "fusion_spheres_set",
+        "label": "Fusion Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 120,
+        "ashita_offset": 121,
+        "fmt": "B",
+        "key": "distortion_spheres_set",
+        "label": "Distortion Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 121,
+        "ashita_offset": 122,
+        "fmt": "B",
+        "key": "fragmentation_spheres_set",
+        "label": "Fragmentation Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 122,
+        "ashita_offset": 123,
+        "fmt": "B",
+        "key": "gravitation_spheres_set",
+        "label": "Gravitation Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 123,
+        "ashita_offset": 124,
+        "fmt": "B",
+        "key": "light_spheres_set",
+        "label": "Light Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 124,
+        "ashita_offset": 125,
+        "fmt": "B",
+        "key": "darkness_spheres_set",
+        "label": "Darkness Spheres Set"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 128,
+        "ashita_offset": 129,
+        "fmt": "i",
+        "key": "silver_aman_vouchers_stored",
+        "label": "Silver A.M.A.N. Vouchers Stored"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 132,
+        "ashita_offset": 133,
+        "fmt": "i",
+        "key": "domain_points",
+        "label": "Domain Points"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 136,
+        "ashita_offset": 137,
+        "fmt": "i",
+        "key": "domain_points_earned_today",
+        "label": "Domain Points Earned Today"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 140,
+        "ashita_offset": 141,
+        "fmt": "i",
+        "key": "mog_segments",
+        "label": "Mog Segments"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 144,
+        "ashita_offset": 145,
+        "fmt": "i",
+        "key": "gallimaufry",
+        "label": "Gallimaufry"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 148,
+        "ashita_offset": 149,
+        "fmt": "i",
+        "key": "imperial_standing_accolades",
+        "label": "Imperial Standing Accolades"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 152,
+        "ashita_offset": 153,
+        "fmt": "i",
+        "key": "temenos_units",
+        "label": "Temenos Units"
+      },
+      {
+        "packet": "0x118",
+        "raw_offset": 156,
+        "ashita_offset": 157,
+        "fmt": "i",
+        "key": "apollyon_units",
+        "label": "Apollyon Units"
+      }
+    ]
+  }
+}
